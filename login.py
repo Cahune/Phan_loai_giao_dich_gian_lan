@@ -17,8 +17,8 @@ def Login():
     
     # Kiểm tra xem người dùng đã đăng nhập chưa
     if not st.session_state.logged_in:
-        st.title("Chào mừng bạn đến với trang Đăng nhập")
-        with st.form("Đăng Nhập"):
+        st.title("Đăng nhập")
+        with st.form("HỆ THỐNG ĐĂNG NHẬP"):
             user_name = st.text_input("Tên đăng nhập")
             password = st.text_input("Mật khẩu", type='password')
             if st.form_submit_button("Đăng Nhập"):
