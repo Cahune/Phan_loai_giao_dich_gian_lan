@@ -5,7 +5,7 @@ import base64
 
 import home, login, prediction, about
 st.set_page_config(
-        page_title="Cahu",
+        page_title="Phân Loại Giao Dịch",
 )
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
