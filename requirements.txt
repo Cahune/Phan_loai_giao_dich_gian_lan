@@ -4,3 +4,4 @@ joblib
 scikit-learn==1.1.3
 imbalanced-learn
 streamlit-option-menu
+base64
