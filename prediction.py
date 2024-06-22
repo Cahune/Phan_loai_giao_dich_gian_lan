@@ -92,7 +92,7 @@ def Prediction():
             st.write('Chờ dữ liệu được tải lên.')
             st.write(input_df)
 
-        load_clf = joblib.load(open('Phat_hien_gian_lan/model.joblib', 'rb'))
+        load_clf = joblib.load(open('./Phat_hien_gian_lan/model.joblib', 'rb'))
 
         prediction = load_clf.predict(input_df)
         prediction_probability = load_clf.predict_proba(input_df)
